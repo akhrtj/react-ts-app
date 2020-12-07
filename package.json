@@ -13,10 +13,10 @@
     "eject": "react-scripts eject",
     "lint": "yarn run lint:ts & yarn run lint:scss",
     "fix": "yarn run fix:ts & yarn run fix:scss",
-    "lint:ts": "eslint src/**/*.{js,jsx,ts,tsx}",
-    "lint:scss": "stylelint src/**/*.{css,scss}",
-    "fix:ts": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
-    "fix:scss": "stylelint src/**/*.{css,scss} --fix",
+    "lint:ts": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint:scss": "stylelint 'src/**/*.{css,scss}'",
+    "fix:ts": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
+    "fix:scss": "stylelint 'src/**/*.{css,scss}' --fix",
     "upgrade:latest": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
@@ -37,6 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react-hooks": "^4.1.2",
     "node-sass": "^4.14.1",
