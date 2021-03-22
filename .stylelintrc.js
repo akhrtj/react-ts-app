@@ -27,5 +27,7 @@ module.exports = {
         ],
       },
     ],
+    'no-empty-source': null,
+    'block-no-empty': null,
   },
 };
