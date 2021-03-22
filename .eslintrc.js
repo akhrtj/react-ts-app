@@ -33,6 +33,10 @@ module.exports = {
       },
     ],
   },
+  globals: {
+    window: true,
+    document: true,
+  },
   settings: {
     react: {
       version: 'detect',
