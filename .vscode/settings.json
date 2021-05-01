@@ -1,15 +1,14 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true,
-  },
-  "css.validate": false,
-  "scss.validate": false,
-  "[css]": {
-    "editor.formatOnSave": false
-  },
-  "[scss]": {
-    "editor.formatOnSave": false
-  },
-  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "jest.autoEnable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.fixAll.format",
+    "source.fixAll.eslint"
+  ],
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true
 }
